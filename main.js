@@ -1,5 +1,5 @@
 const player1 = {
-    name: 'Zero',
+    name: 'НУРАГА',
     hp: 50,
     weapon: ['нож'],
     img: 'http://reactmarathon-api.herokuapp.com/assets/subzero.gif',
@@ -9,12 +9,12 @@ const player1 = {
 }
 console.log(player1.attack());
 const player2 = {
-    name: 'Panda',
+    name: 'АИДА',
     hp: 80,
     img: 'http://reactmarathon-api.herokuapp.com/assets/sonya.gif',
     weapon: ['палька'],
     attack: function () {
-        console.log(this.name + ' ' + 'Fight...')
+        console.log(this.name + ' ' + 'Fight...')MortalKombat
     }
 }
 function createPlayer(playerClass, playerObj) {
